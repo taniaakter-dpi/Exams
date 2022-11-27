@@ -1,0 +1,42 @@
+body{
+   background-image:url(./assests/images/bg_main.gif);
+   background: cover;
+   background-position: center;
+    
+}
+.cont{
+    width: 996px;
+    margin: 0 auto;
+}
+.topbar{
+    background: rgb(163, 81, 170);
+    height: 30px;
+    color: aliceblue;
+    font-size: 14px;
+    line-height: 30px;
+    border-bottom: 2px solid rgb(42, 155, 42);
+}
+.topbar_right p{
+    display: inline-block;
+    border-right: 1px solid white;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+   
+.topbar_right .btn{
+    text-decoration: none;
+
+}
+.slider img{
+    height: 220px;
+    display: block;
+    float: left;
+    width: 100%;
+    border: 0;
+}
+.navbar ul li a{
+    border-right: 1px solid rgb(121, 104, 104);
+}
+.navbar ul li a:hover{
+    background: green;
+}
